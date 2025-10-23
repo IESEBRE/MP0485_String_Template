@@ -11,7 +11,7 @@ public class TestProblemes {
 
         Problema1.main(new String[]{});
 
-        assertEquals("Longitud: 11 (senar)\n", outContent.toString().trim());
+        assertEquals("Longitud: 11 (senar)", outContent.toString().trim());
     }
 
     @Test
@@ -22,7 +22,7 @@ public class TestProblemes {
 
         Problema1.main(new String[]{});
 
-        assertEquals("Longitud: 0 (parella)\n", outContent.toString().trim());
+        assertEquals("Longitud: 0 (parella)", outContent.toString().trim());
     }
 
     @Test
@@ -33,7 +33,7 @@ public class TestProblemes {
 
         Problema1.main(new String[]{});
 
-        assertEquals("Longitud: 5 (senar)\n", outContent.toString().trim());
+        assertEquals("Longitud: 5 (senar)", outContent.toString().trim());
     }
    
     @Test
@@ -44,7 +44,7 @@ public class TestProblemes {
 
         Problema2.main(new String[]{});
 
-        assertEquals("Nombre de vocals: 5\n", outContent.toString().trim());
+        assertEquals("Nombre de vocals: 5", outContent.toString().trim());
     }
 
     @Test
@@ -55,7 +55,7 @@ public class TestProblemes {
 
         Problema2.main(new String[]{});
 
-        assertEquals("Nombre de vocals: 0\n", outContent.toString().trim());
+        assertEquals("Nombre de vocals: 0", outContent.toString().trim());
     }
 
     @Test
@@ -66,7 +66,7 @@ public class TestProblemes {
 
         Problema2.main(new String[]{});
 
-        assertEquals("Nombre de vocals: 10\n", outContent.toString().trim());
+        assertEquals("Nombre de vocals: 10", outContent.toString().trim());
     }
 
     @Test
