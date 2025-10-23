@@ -88,7 +88,7 @@ public class TestProblemes {
 
         Problema3.main(new String[]{});
 
-        assertEquals("La cadena no conté la paraula 'mon'", outContent.toString().trim());        
+        assertEquals("La cadena no conté la paraula 'adéu'", outContent.toString().trim());        
     }
 
     @Test
